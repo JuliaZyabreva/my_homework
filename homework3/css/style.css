@@ -1,0 +1,118 @@
+.main {
+    margin: 0px 130px 0px 130px;
+	padding: 40px;
+	box-shadow: 0 0 1px;
+}
+
+.logo {
+	font-size: 50px;
+	font-family: Myriad Pro;
+    color: #333333;
+}
+
+.menu1 ul li {
+	display: inline-block;
+}
+.menu1{
+	margin: 30px 0px 30px 0px;
+	font-size: 0px;
+	background:#666666;
+	
+}
+
+.menu1 ul li a {
+	text-decoration:none; 
+	font-size: 15px;
+	font-family: OpenSans; 
+	color: white;
+	line-height: 45px;
+	padding: 15px 30px 15px 30px;
+
+}
+.menu1 ul li a:hover {
+	background:#333333;
+	border-left: 1px solid white;
+	border-right: 1px solid white; 
+}
+
+  .left_menu {
+    float: left; 
+    width: 230px;
+    margin: 30px 30px 30px 0px; 
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+
+
+    
+ }
+  .left_menu a {
+    display: block; 
+    padding: 10px; 
+    font-size: 15px; 
+    font-family: OpenSans;
+    color: #333333;
+    text-decoration: none;
+    line-height: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+  
+.left_menu ul li a:hover {
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+.content { 
+    margin: 30px 0px 0px 230px; 
+   }
+
+.img {
+	float: right;
+	padding: 30px 0px 30px 30px;
+}
+.text {
+	padding-left: 120px;
+	padding-bottom: 30px;
+	font-size: 15px; 
+    font-family: OpenSans;
+    color: #333333;
+    line-height: 1.5;
+}
+.menu2{
+	background-color: #cccccc;
+}
+.menu2 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu2 ul:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.menu2 li{
+	float: left;
+}
+.menu2 li :last-child{
+    float: right;
+}
+.menu2 li a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px;
+    background-color: #cccccc;
+	color: #333333;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menu2 li a:hover{
+	text-decoration: underline;
+			
+}
+  
+
+
