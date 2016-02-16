@@ -81,23 +81,28 @@
 }
 .menu2{
 	background-color: #cccccc;
+	clear: both;
+
 }
 .menu2 ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+
 }
-.menu2 ul:after{
+.menu2 ul :after{
 	content: "";
-	display: block;
-	clear: both;
+	display: inline-block;
 	height: 0;
 }
 .menu2 li{
 	float: left;
+
 }
-.menu2 li :last-child{
+.menu2 ul li :last-child{
     float: right;
+    padding-right: 0px;
+    
 }
 .menu2 li a{
 	display: block;
