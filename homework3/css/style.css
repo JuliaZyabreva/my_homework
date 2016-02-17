@@ -79,9 +79,16 @@
     color: #333333;
     line-height: 1.5;
 }
+
+
+
+
+
 .menu2{
 	background-color: #cccccc;
 	clear: both;
+	position: relative;
+	overflow: hidden;
 
 }
 .menu2 ul{
@@ -99,10 +106,9 @@
 	float: left;
 
 }
-.menu2 ul li :last-child{
+.menu2 li :last-child {
     float: right;
-    padding-right: 0px;
-    
+  
 }
 .menu2 li a{
 	display: block;
