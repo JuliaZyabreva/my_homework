@@ -1,0 +1,46 @@
+
+body {
+	background: url(../img/background.jpg) repeat;
+	
+}
+
+.wrapper {
+	margin:0 auto;
+	width: 1000px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+   
+}
+
+.logo {
+	float: left;
+	height: 174px;
+
+}
+.contakts {
+    float: right;
+    padding-right: 50px;
+
+}
+
+.countries {
+	float: right;
+	padding: 36px 36px 0 0;
+}
+.countries li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.countries a {
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+}
+
+.image {
+	width: 100%;
+	border-top: 1px blue;
+	border-bottom: 1px blue;
+}
+
+

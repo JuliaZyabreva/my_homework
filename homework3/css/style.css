@@ -81,49 +81,35 @@
 }
 
 
-
-
-
-.menu2{
-	background-color: #cccccc;
-	clear: both;
+footer {
+	line-height: 40px;
 	position: relative;
 	overflow: hidden;
-
+	background: #cccccc;
 }
-.menu2 ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
+.copyright {
+	float: right;
+	margin-right: 20px;
+	color: #333333;
 }
-.menu2 ul :after{
-	content: "";
-	display: inline-block;
-	height: 0;
-}
-.menu2 li{
+footer ul {
 	float: left;
-
 }
-.menu2 li :last-child {
-    float: right;
-  
+footer li {
+	display: inline-block;
+	padding: 0 35px;
 }
-.menu2 li a{
-	display: block;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 30px;
-    background-color: #cccccc;
+footer li a {
 	color: #333333;
 	text-decoration: none;
-	cursor: pointer;
 }
-.menu2 li a:hover{
+
+}
+footer li a:hover {
 	text-decoration: underline;
-			
 }
-  
+
+
+
 
 
