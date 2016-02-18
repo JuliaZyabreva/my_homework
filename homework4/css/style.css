@@ -11,12 +11,13 @@ body {
     box-shadow: 0 0 10px;
    
 }
+/*HEADER*/
 header {
 	position: relative;
 	width: 1000px;
 	font-size: 12px;
 	line-height: 16px;
-	color: #128aa7;
+	color: white;
 }
 .logo {
 	float: left;
@@ -25,30 +26,123 @@ header {
 }
 .contakts {
     float: right;
-    padding-right: 50px;
+    padding:10px 36px 0 0;
 
-
+}
+.contakts li:first-child{
+	font-weight: bold;
 }
 
 .countries {
+	clear: right;
 	float: right;
 	padding: 36px 36px 0 0;
 }
 .countries li {
 	display: inline-block;
 	margin-left: 10px;
+
 }
 .countries a {
 	font-size: 10px;
 	line-height: 12px;
 	text-align: center;
 }
+.countries li a {
+	color: #128aa7;
+}
 
+/*FOTO*/
 
 .image img {
 	display:block;
 	border-top: 1px solid blue;
 	border-bottom: 1px solid blue;
 }
+/*MENU*/
+.menu {
+	width: 1000px;  
+	position: relative;
+	z-index:3;
+} 
 
 
+.menu li {
+	position: relative;
+	float: left;
+	background: #333333;
+
+
+}
+.menu li a {
+	display: block;
+	position: relative;
+	padding: 0 36px;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+}
+.menu ul+a:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -2px;
+	right: 18px;
+	height: 6px;
+	width: 5px;
+	background: url(../img/triangle.png) 0 0 no-repeat;
+}
+.menu ul {
+	position: absolute;
+	left: 23px;
+	visibility: hidden;
+	top: 0;
+	opacity: 0;
+	
+	
+}
+.menu li:hover ul {
+	visibility: visible;
+	opacity: 1;
+	top: 100%;
+}
+.menu ul li {
+	background: #333333;
+	width: 150px;		
+}
+.menu ul a {
+	padding: 0 30px 0 10px;
+	text-align: left;
+}
+/*CONTENT*/
+.content {
+	background: white;
+	display: block;
+	width: 1000px;
+}
+.left_box {
+	float: left;
+	display: inline-block;
+	width: 21%;
+	background: #edeef0;
+	padding: 15px;
+}
+
+
+    
+
+
+.right_box {
+	float: right;
+	display: inline-block;
+	width: 21%;
+	background: #edeef0;
+	padding: 15px;
+}
+
+
+/*FOOTER*/
+.footer {
+	clear: both;
+}
