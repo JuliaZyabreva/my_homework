@@ -1,4 +1,6 @@
-
+* {
+	font-family: Tahoma;
+}
 body {
 	background: url(../img/background1.png) repeat;
 	
@@ -8,9 +10,11 @@ body {
 	margin:0 auto;
 	width: 1000px;
     background-color: white;
-    box-shadow: 0 0 10px;
-   
-}
+    box-shadow: 0px 2px 8px 1px;
+ }
+
+
+
 /*HEADER*/
 header {
 	position: relative;
@@ -25,6 +29,7 @@ header {
 
 }
 .contakts {
+    color: #128aa7;
     float: right;
     padding:10px 36px 0 0;
 
@@ -56,14 +61,17 @@ header {
 
 .image img {
 	display:block;
-	border-top: 1px solid blue;
-	border-bottom: 1px solid blue;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
 }
 /*MENU*/
 .menu {
 	width: 1000px;  
 	position: relative;
-	z-index:3;
+	z-index:1;
+	border-top: 1px solid white;
+	border-bottom: 1px solid black;
+    box-shadow: 0px 4px 6px -1px #000000;
 } 
 
 
@@ -71,6 +79,7 @@ header {
 	position: relative;
 	float: left;
 	background: #333333;
+    
 
 
 }
@@ -99,6 +108,7 @@ header {
 	visibility: hidden;
 	top: 0;
 	opacity: 0;
+	box-shadow: 0px 4px 6px -1px #000000;
 	
 	
 }
@@ -120,29 +130,50 @@ header {
 	background: white;
 	display: block;
 	width: 1000px;
+	overflow: hidden;
 }
+
+h2 {
+	font-size: 18px;
+	line-height: 30px;
+	color: #424c43;
+	font-weight: bold;
+}
+
 .left_box {
 	float: left;
 	display: inline-block;
 	width: 21%;
+	height: 550px;
 	background: #edeef0;
-	padding: 15px;
+	line-height: 1.5;
+	text-align: center;
+	color: #424c43;
+	border-right: 1px solid #cccccc;
+
 }
-
-
-    
 
 
 .right_box {
 	float: right;
 	display: inline-block;
 	width: 21%;
+	height: 550px;
 	background: #edeef0;
-	padding: 15px;
+	line-height: 1.5;
+	text-align: center;
+	color: #424c43;
+	border-left: 1px solid #cccccc;
+
 }
 
 
 /*FOOTER*/
 .footer {
 	clear: both;
+	margin: 10px 0;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #fff;	
 }
