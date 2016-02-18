@@ -17,9 +17,10 @@ body {
 
 /*HEADER*/
 header {
-	position: relative;
+    position: relative;
 	width: 1000px;
-	font-size: 12px;
+	height: 175px;
+    font-size: 12px;
 	line-height: 16px;
 	color: white;
 }
@@ -56,7 +57,11 @@ header {
 .countries li a {
 	color: #128aa7;
 }
-
+.header:after {
+    content: "";
+    clear: both;
+    display: block;
+}
 /*FOTO*/
 
 .image img {
@@ -64,66 +69,59 @@ header {
 	border-top: 1px solid #128aa7;
 	border-bottom: 1px solid #128aa7;
 }
+
 /*MENU*/
-.menu {
-	width: 1000px;  
-	position: relative;
-	z-index:1;
-	border-top: 1px solid white;
-	border-bottom: 1px solid black;
-    box-shadow: 0px 4px 6px -1px #000000;
-} 
 
+.menu{
+  background: #333333;
+  height: 30px;
+  box-shadow: 0px 4px 6px -1px #000000;
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid white;
+  border-bottom: 1px solid black;
+}
+.menu :after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.menu a{
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+.menu .symbol{
+  font-size: 8px;
+  vertical-align: middle;
+  padding: 5px;
+}
+.menu li{
+  float: left;
+  height: 30px;
+  width: 140px;
+  cursor: pointer;
+  position: relative;
+}
+.menu li ul{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  margin: 0;
+  width: 140px;
+  background: #333333;
+  box-shadow: 0px 4px 6px -1px #000000;
+  border-top: 1px solid black;
+}
+.menu li:hover ul{
+  display: block;
+}
 
-.menu li {
-	position: relative;
-	float: left;
-	background: #333333;
-    
-
-
-}
-.menu li a {
-	display: block;
-	position: relative;
-	padding: 0 36px;
-	line-height: 30px;
-	color: white;
-	text-decoration: none;
-}
-.menu ul+a:after{
-	content: '';
-	display: block;
-	position: absolute;
-	top: 50%;
-	margin-top: -2px;
-	right: 18px;
-	height: 6px;
-	width: 5px;
-	background: url(../img/triangle.png) 0 0 no-repeat;
-}
-.menu ul {
-	position: absolute;
-	left: 23px;
-	visibility: hidden;
-	top: 0;
-	opacity: 0;
-	box-shadow: 0px 4px 6px -1px #000000;
-	
-	
-}
-.menu li:hover ul {
-	visibility: visible;
-	opacity: 1;
-	top: 100%;
-}
-.menu ul li {
-	background: #333333;
-	width: 150px;		
-}
-.menu ul a {
-	padding: 0 30px 0 10px;
-	text-align: left;
 }
 /*CONTENT*/
 .content {
@@ -131,6 +129,12 @@ header {
 	display: block;
 	width: 1000px;
 	overflow: hidden;
+}
+
+.content:after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 h2 {
@@ -144,7 +148,9 @@ h2 {
 	float: left;
 	display: inline-block;
 	width: 21%;
-	height: 550px;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+
 	background: #edeef0;
 	line-height: 1.5;
 	text-align: center;
@@ -153,12 +159,22 @@ h2 {
 
 }
 
+.center_box {
+	float: left;
+	display: inline-block;
+	width: 58%;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background: white;
+}
 
 .right_box {
 	float: right;
 	display: inline-block;
 	width: 21%;
-	height: 550px;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+
 	background: #edeef0;
 	line-height: 1.5;
 	text-align: center;
