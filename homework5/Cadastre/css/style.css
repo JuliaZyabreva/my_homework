@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100%;
+  list-style: none;
+
+}
+
+
+
+.page {
+  height: 100%;
+}
+
+/*HEADER*/
+header{
+  height: 36px;
+  overflow: hidden;
+  background-image: url(../img/header.png);
+}
+
+
+
+
+.login {
+  float: right;
+  margin-right: 20px;
+  padding: 0px 14px;
+  color: white;
+  background: url(../img/Login.png);
+}
+
+.login a{
+  line-height: 36px;
+  display: inline-block;
+  color: white;
+}
+
+.offer{
+  float: right;
+  padding: 0px 14px;
+  width: 132px;
+  text-align: right;
+  background:
+    url(../img/line.png) 0px 2px no-repeat,
+    url(../img/flag.png) 20px 7px no-repeat;
+}
+.offer a {
+  line-height: 36px;
+  display: block;
+  color: white;
+  text-decoration: none;
+
+}
+.menu {
+  float: right;
+  padding: 0px 14px;
+  line-height: 36px;
+}
+.menu li {
+  display: inline;
+  margin-right:  14px;
+
+}
+.menu a {
+  text-decoration: none;
+  color: #58aae2;
+
+}
+.menu  li a :hover{
+  background: #4eabda;
+  color: #ffffff;
+}
+
+/*WRAPPER*/
+.wrapper {
+  background-image: url(../img/fon.jpg);
+  height: 1028px;
+}
+
+.form-box {
+
+  width: 560px;
+  height: 613px;
+  margin: 0 auto;
+  top: 213px;
+  position: relative;
+}
+.name{
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 64px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content{
+  height: 549px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.facebook{
+  width: 276px;
+  margin: auto;
+  padding: 35px 0 32px;
+}
+.facebook a{
+  display: block;
+}
+.facebook img{
+  vertical-align:bottom
+}
+.line {
+
+}
+.form{
+  margin: 10px auto 0;
+  display: block;
+  width: 276px;
+}
+input{
+  width: 258px;
+  height: 35px;
+  background: #0f0f0f;
+  margin-top: 20px;
+  padding-left: 18px;
+  border: none;
+  border-bottom: 1px solid #484948;
+  font-size: 14px;
+}
+input:focus{
+  background: linear-gradient(to bottom, #1e4b76, #1f5384);
+  outline: none;
+  box-shadow: 0px 0px 8px 2px rgba(104,155,204,1);
+  border-bottom: 1px solid #689bcc;
+}
+.checkbox{
+  width: auto;
+  height: 17px;
+  vertical-align: bottom;
+  font-size: 14px;
+  color: #cccccc;
+  box-shadow: 0;
+}
+.button{
+  width: 151px;
+  height: 35px;
+  margin: 20px 62px;
+  padding: 0 13px;
+  background: linear-gradient(to bottom, #50aedb, #2e7ac4);
+  font-size: 14px;
+  cursor: pointer;
+}
+.content p{
+  text-align: center;
+  font-size: 11px;
+  color: #cccccc;
+}
+
+
+
+
+
+
+
