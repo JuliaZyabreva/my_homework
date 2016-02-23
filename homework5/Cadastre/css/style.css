@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: 'helvetica_neueregular';
+    font-family: 'Helvetica Neue Regular';
     src: url('../fonts/helveticaneue-thin-webfont.eot');
     src: url('../fonts/helveticaneue-thin-webfont.eot?') format('embedded-opentype'),
          url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
@@ -21,6 +21,7 @@
 
 .page {
   height: 100%;
+  font-family: "Helvetica Neue Regular", Arial, sans-serif;
   
 }
 
