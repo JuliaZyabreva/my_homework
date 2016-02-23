@@ -52,24 +52,22 @@ header{
   text-decoration: none;
 
 }
-.menu {
+.menu{
+  display: flex;
   float: right;
   padding: 0px 14px;
-  line-height: 36px;
-}
-.menu li {
-  display: inline;
-  margin-right:  14px;
-
-}
-.menu a {
   text-decoration: none;
-  color: #58aae2;
-
 }
-.menu  li a :hover{
+.menu a{
+  color: #60b5ed;
+  text-decoration: none;
+  line-height: 36px;
+  display: block;
+  padding: 0px 10px;
+}
+.menu a:hover{
   background: #4eabda;
-  color: #ffffff;
+  color: #fff;
 }
 
 /*WRAPPER*/
@@ -90,6 +88,7 @@ header{
   margin-bottom: 2px;
   text-align: center;
   font-size: 24px;
+  color: white;
   line-height: 64px;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -108,8 +107,37 @@ header{
 .facebook img{
   vertical-align:bottom
 }
-.line {
 
+h2.line {
+  position: relative;
+  overflow: hidden;
+  
+}
+h2.line span {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+ *display: inline;
+ *vertical-align: auto;
+  position: relative;
+  padding: 0 20px;
+}
+h2.line span:before,
+h2.line span:after {
+  content: '';
+  display: block;
+  width: 1100px;
+  position: absolute;
+  top: 0.4em;
+  border-top: 1px solid #666666;
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+  box-shadow: 
+}
+h2.line span:before {
+  right: 100%;
+}
+h2.line span:after {
+  left: 100%;
 }
 .form{
   margin: 10px auto 0;
@@ -127,7 +155,7 @@ input{
   font-size: 14px;
 }
 input:focus{
-  background: linear-gradient(to bottom, #1e4b76, #1f5384);
+  background: #1b5288;
   outline: none;
   box-shadow: 0px 0px 8px 2px rgba(104,155,204,1);
   border-bottom: 1px solid #689bcc;
@@ -145,7 +173,7 @@ input:focus{
   height: 35px;
   margin: 20px 62px;
   padding: 0 13px;
-  background: linear-gradient(to bottom, #50aedb, #2e7ac4);
+  background: #4aa5d7;
   font-size: 14px;
   cursor: pointer;
 }
