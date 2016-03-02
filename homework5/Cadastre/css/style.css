@@ -22,6 +22,9 @@
 .page {
   height: 100%;
   font-family: "Helvetica Neue Regular", Arial, sans-serif;
+  background-image: url(../img/fon.jpg);
+  background-size: cover;
+
 
   
 }
@@ -87,35 +90,32 @@ header{
 }
 
 /*WRAPPER*/
-.wrapper {
-  background-image: url(../img/fon.jpg);
-  height: 1028px;
-}
+
 
 .form-box {
 
-  width: 560px;
-  height: 613px;
   margin: 0 auto;
-  top: 213px;
-  position: relative;
+  margin-top: 7%;
+  margin-bottom: 7%; 
+  width: 400px;
+  
 }
 .name{
   margin-bottom: 2px;
   text-align: center;
   font-size: 24px;
   color: white;
-  line-height: 64px;
+  line-height: 50px;
   background: rgba(0, 0, 0, 0.5);
 }
 .content{
-  height: 549px;
+
   background: rgba(0, 0, 0, 0.5);
 }
 .facebook{
-  width: 276px;
-  margin: auto;
-  padding: 35px 0 32px;
+  width: 265px;
+  margin: 0 auto;
+  padding: 15px 0 15px;
 }
 .facebook a{
   display: block;
@@ -125,7 +125,7 @@ header{
 }
 
 .block-line {
-  width: 276px;
+  width: 220px;
   margin: 0 auto;
 }
 
@@ -136,7 +136,7 @@ header{
 }
 
 .block-line p {
-  padding-left: 129px;
+  padding-left: 100px;
   color: #999;
 }
 
@@ -144,32 +144,32 @@ header{
   background-color: #666;
   border-bottom: 1px solid #000;
   height: 1px;
-  width: 122px;
+  width: 100px;
   float: left;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 .line-r {
   background-color: #666;
   border-bottom: 1px solid #000;
   height: 1px;
-  width: 122px;
+  width: 100px;
   float: right;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 
 
 .form{
-  margin: 10px auto 0;
+  margin: 0 auto;
   display: block;
-  width: 276px;
+  width: 216px;
 }
 input{
-  width: 258px;
-  height: 35px;
+  width: 197px;
+  height: 30px;
   background: #0f0f0f;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 18px;
   border: none;
   border-bottom: 1px solid #484948;
@@ -185,23 +185,28 @@ input:focus{
   width: auto;
   height: 17px;
   vertical-align: bottom;
-  font-size: 14px;
+  font-size: 13px;
   color: #cccccc;
   box-shadow: 0;
 }
 .button{
-  width: 151px;
-  height: 35px;
-  margin: 20px 62px;
+  width: 140px;
+  height: 30px;
+  margin: 10px 38px;
   padding: 0 13px;
   background: #4aa5d7;
-  font-size: 14px;
+  font-size: 13px;
+  color: white;
   cursor: pointer;
+  border-radius: 4px;
 }
 .content p{
   text-align: center;
   font-size: 11px;
   color: #cccccc;
+}
+.line_bottom {
+  padding-bottom: 10px;
 }
 
 
