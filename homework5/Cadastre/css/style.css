@@ -24,7 +24,7 @@
   font-family: "Helvetica Neue Regular", Arial, sans-serif;
   background-image: url(../img/fon.jpg);
   background-size: cover;
-  border-bottom: transparent 1px;
+  border-bottom: 1px solid transparent;
 
 
   
