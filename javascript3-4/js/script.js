@@ -60,7 +60,10 @@ var app = {
 			label.insertAdjacentElement('afterBegin', checkbox);
 			}
 		}
+  
 	}
+
+	
 };
 
 var wrapper = app.createElement ({
