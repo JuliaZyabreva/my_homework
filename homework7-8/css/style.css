@@ -451,6 +451,11 @@
 	line-height: 20px;
 	font-family: 'Open Sans',Tahoma, Arial, sans-serif;
 }
+.copyrights1 {
+    color: #575555;
+    font-style: italic;
+    padding:  10px;
+}
 
 /*FOOTER*/
 .footer{
