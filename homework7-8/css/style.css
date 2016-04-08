@@ -277,7 +277,6 @@
 }
 
 .slider__title span{
-	display: block;
 	color: #edbfff;
 }
 
@@ -416,20 +415,21 @@
 	border-top: 1px solid #fefefe;
 	border-bottom: 1px solid #fefefe;
 	background: #f9f9f9;
+	height: 95px;
 }
 
 .partners__item{
 	display: block;
 	float: left;
 	width: 50%;
-	margin-bottom: 60px;
+	margin-bottom: 27px;
 	text-align: center;
 }
 
 /*PREFOOTER*/
 .prefooter{
 	background-color: #ececec;
-	padding: 100px 0 36px;
+	padding: 100px 0 42px;
 	border-top: 1px solid #d8d8d8;
 }
 
@@ -458,13 +458,17 @@
 	background: url(../img/fon_footer.jpg) top center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	font-size: 16px;
 }
 
 .menu--footer{
 	display: block;
 	padding-top: 48px;
+	font-size: 16px;
 }
-
+.menu--footer .menu__link {
+	font-size: 18px;
+}
 .copyrights{
 	padding-top: 40px;
 	color: #fff;
@@ -478,6 +482,10 @@
 	font-weight: 800;
 	color: #fff;
 	text-decoration: none;
+}
+.copyrights2 {
+	font-size: 12px;
+	color: white;
 }
 
 /*MEDIA*/
@@ -781,6 +789,6 @@
 	.copyrights2{
 		float: right;
 		text-align: right;
-		padding-top: 66px;
+		padding-top: 60px;
 	}
 }
