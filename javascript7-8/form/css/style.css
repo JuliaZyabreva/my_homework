@@ -1,0 +1,66 @@
+.container {
+	width: 500px;
+	padding: 100px;
+	margin: 0 auto;
+}
+
+fieldset {
+	padding: 30px 30px;
+	margin-bottom: 25px;
+	border: 3px solid #708090;
+	background: #696969;
+}
+
+fieldset div {
+	margin-bottom: 15px;
+}
+
+label, input {
+	display: inline-block;
+}
+
+label {
+	width: 120px;
+	font-family: Arial, sans-serif;
+	color: #eee;
+}
+
+.tooltip {
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	padding: 5px 10px;
+	top: -5px;
+	right: -25px;
+	line-height: 20px;
+	border: 2px solid #777;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	background: rgba(0,0,0,.5);
+	color: yellow;
+	 z-index:999;
+ 	left:-9999px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #888;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	color: #eee;
+	outline: none;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+
+button:hover {
+	background: #555;
+	border: 1px solid yellow;
+	color: yellow;
+}
