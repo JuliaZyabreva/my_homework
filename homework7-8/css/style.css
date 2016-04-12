@@ -18,7 +18,7 @@
 .wrapper{
 	position: relative;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 25px;
 	min-width: 280px;
 }
 /*HEADER*/
@@ -136,7 +136,6 @@
 .slider__item{
 	margin: 0 auto;
 	padding-bottom: 40px;
-	padding-left: 40px;
 
 }
 
@@ -226,7 +225,7 @@
 /*slider--content*/
 .slider--content{
 	margin-top: 0;
-	padding: 0 20px;
+	padding: 0 20px 0 0;
 	background: rgba(0, 0, 0, 0);
 }
 
@@ -281,7 +280,7 @@
 }
 
 .slider--content .slider__text{
-	margin-top: 14px;
+	margin-top: 12px;
 	color: #454545;
 	font-family: 'Open Sans',Tahoma, Arial, sans-serif;
 }
@@ -317,6 +316,7 @@
 .about__text{
 	font-size: 16px;
 	font-family: 'Open Sans',Tahoma, Arial, sans-serif;
+	padding-top: 10px;
 }
 
 .about__link{
@@ -390,8 +390,11 @@
 	color: #454545;
 	font-size: 16px;
 	font-family: 'Open Sans',Tahoma, Arial, sans-serif;
-}
 
+}
+.updates__info{
+	padding-top: 10px;
+}
 .updates__subtitle{
 	font-weight: 800;
 }
@@ -407,6 +410,7 @@
 
 .updates__link:hover{
 	text-shadow: 0px 0px 10px #454545;
+    padding-right: 10px;
 }
 
 /*partners*/
@@ -450,6 +454,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	font-family: 'Open Sans',Tahoma, Arial, sans-serif;
+	padding-top: 9px;
 }
 .copyrights1 {
     color: #575555;
@@ -468,7 +473,7 @@
 
 .menu--footer{
 	display: block;
-	padding-top: 48px;
+	padding-top: 36px;
 	font-size: 16px;
 }
 .menu--footer .menu__link {
@@ -489,7 +494,7 @@
 	text-decoration: none;
 }
 .copyrights2 {
-	font-size: 12px;
+	font-size: 13px;
 	color: white;
 }
 
@@ -598,7 +603,8 @@
 	}
 
 	.logo{
-		margin-left: 11px;
+		margin: 0 0 0 11px;
+		padding: 5px;
 	}
 
 	.current-page__link{
@@ -608,10 +614,11 @@
 	.menu{
 		display: block;
 		left: -6px;
+
 	}
 
 	.menu-wrapper {
-    	margin: 22px 20px 0px;
+    	margin: 0;
     }
 
     .menu__item{    	
@@ -688,7 +695,7 @@
 
 @media (min-width: 960px) {
 	.wrapper{
-		padding: 0;
+		
     	width: 960px;
 	}
 
@@ -720,6 +727,7 @@
 
     .slider__item{
 		width: 960px;
+		padding-left: 30px;
     }
 		
 	.slider__text1{
@@ -766,8 +774,8 @@
 	.updates{
 		float: left;
 		width: 45.7%;
-		margin-top: 30px;
-		margin-left: 42px;
+		margin-top: 25px;
+		margin-left: 48px;
 	}
 
 	.partners__item{
@@ -794,6 +802,6 @@
 	.copyrights2{
 		float: right;
 		text-align: right;
-		padding-top: 60px;
+		padding-top: 55px;
 	}
 }
