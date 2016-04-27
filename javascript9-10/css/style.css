@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+#slider1 { 
+margin-left: 200px;
+}
+
+.select {
+  float: left;
+  margin-left: 20px;
+  padding-bottom: 50px;
+}
+
+.main {
+  float: left;
+  padding-left: 30px;
+
+}
+
+.niceCheck {
+
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(path-to/checkbox.png);
+  overflow: hidden;
+
+}
+
+.niceChecked {
+  background-position: 0 -17px;
+
+}
+.niceCheck input {
+ margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
+
+}
+
+.niceCheckDisabled {
+   background-image: url(path-to/checkbox-disabled.png);
+}

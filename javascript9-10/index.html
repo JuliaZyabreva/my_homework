@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Homework js 9-10</title>
+
+<link rel="stylesheet" href="css/style.css" href="">
+<link rel="stylesheet" href="css/website.css" type="text/css" media="screen"/>
+<link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
+
+</head>
+<body>
+    
+<div id="slider1">
+		<a class="buttons prev" href="#">left</a>
+		<div class="viewport">
+			<ul class="overview">
+				<li><img src="img/1img.jpg" /></li>
+				<li><img src="img/2img.jpg" /></li>
+				<li><img src="img/3img.jpg" /></li>									
+				<li><img src="img/4img.jpg" /></li>
+			</ul>
+		</div>
+		<a class="buttons next" href="#">right</a>
+	</div>
+
+<div class="select">
+
+	<select>
+
+		<option>No name 1</option>
+		<option>No name 2</option>
+		<option>No name 3</option>
+
+	</select>
+</div>
+
+<div class="main">
+
+	<form action="#">
+	<div><label for="ch1">label 1</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+	<div><label for="ch2">label 2</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+	<div><label for="ch3">label 3</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+	</form>
+	
+</div>
+
+
+
+
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Подключение  карусели -->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tinycarousel.min.js"></script>
+<!-- Подключение селекта -->
+<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+	
+	<script type="text/javascript">
+		// карусель
+		$(document).ready(function(){
+			$('#slider1').tinycarousel();	
+		});
+
+        // селект
+        $("select").selectbox();
+
+	</script>	
+		
+
+
+</body>
+</html>
