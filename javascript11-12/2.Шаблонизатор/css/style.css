@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background: #ddd;
+  font: 18px Georgia, serif;
+}
+.wrapper {
+  margin: 10px auto;
+  width: 700px;
+  padding: 50px;
+  background: #fff;
+}
+h1 {
+  margin: 30px;
+  text-align: center;
+  color: deepskyblue;
+}
+p {
+  margin: 10px 20px;
+}
+.img {
+  margin:20px auto;
+  
+}
+img {
+  padding-left: 150px;
+  width: 400px;
+}
+header,
+.frontend,
+.contacts {
+  border-bottom: 1px solid black;
+}
+.frontend_list {
+  margin: 20px 50px;
+}
+.contact-box {
+  margin-bottom: 30px;
+}
+
+.quote {
+  color: deepskyblue;
+}

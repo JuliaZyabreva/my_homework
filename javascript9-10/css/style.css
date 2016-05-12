@@ -4,8 +4,15 @@ body {
   list-style: none;
 
 }
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
 #slider1 { 
 margin-left: 200px;
+
 }
 
 .select {
@@ -14,6 +21,7 @@ margin-left: 200px;
   padding-bottom: 50px;
 }
 
+/*Чекбоксы:*/
 .main {
   float: left;
   padding-left: 30px;
@@ -26,7 +34,7 @@ margin-left: 200px;
   height: 17px;
   display: inline-block;
   cursor: pointer;
-  background: url(path-to/checkbox.png);
+  background: url(../img/checkbox.png);
   overflow: hidden;
 
 }
@@ -43,3 +51,82 @@ margin-left: 200px;
 .niceCheckDisabled {
    background-image: url(path-to/checkbox-disabled.png);
 }
+
+.main2css {
+  float: left;
+  padding-left: 30px;
+}
+
+.main2css input[type=checkbox] {
+position: absolute;
+clip: rect(0, 0, 0, 0);
+}
+
+.main2css label {
+ cursor: pointer;
+}
+
+.main2css label:after {
+content: " ";
+display: inline-block;
+width: 17px;
+  height: 17px;
+  background: url(img/checkbox-2.png);
+  position: relative;
+ top: 3px;
+ margin-left: 15px;
+
+}
+
+.main2css input[type=checkbox]:checked + label:after {
+
+background-position: 0 -17px;
+
+}
+
+.main2css label:hover:after {
+background-position: 0 -34px;
+
+}
+
+.main2css input[type=checkbox]:checked + label:hover:after {
+background-position: 0 -51px;
+}
+
+/*Выпадающее меню:*/
+ #nav{
+  margin-top: 100px;
+  display: block;
+  background-color: #D2B48C;
+}
+ul {
+  list-style: none;
+}
+
+#nav ul {
+
+  list-style-type: none;
+}
+#nav ul li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+#nav a {
+  padding: 0 20px;
+  margin: 0 20px;
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  color: black;
+}
+
+ul .sub-menu {
+  height: 50px;
+  width: 100px;
+  display: none;
+  position: absolute;
+  cursor: pointer;
+
+}
+

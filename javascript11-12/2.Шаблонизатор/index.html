@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>J.Z.</title>
+
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="box">
+
+	<div class="container">
+
+		<script type="text/html" id="myPage">
+			<div class="wrapper">
+				<header>
+					<h1><%= name %></h1>
+
+					<div class="img">
+						<img src="<%= userImageUrl %>"/>
+					</div>
+				</header>
+
+				<div class="frontend">
+					<p><%= frontendItem %></p>
+
+					<ul class="frontend_list">
+
+						<% for( var i = 0; i < listArticles.length; i++){ %>
+						<li><%= listArticles[i].list %></li>
+						<% }; %>
+
+					</ul>
+				</div>
+				<div class="contacts">
+					<% for( var j = 0; j < contacts.length; j++){ %>
+					<div class="contact-box">
+						<p><%= contacts[j].contactType %></p>
+
+						<p><%= contacts[j].contactDetails %></p>
+
+						<p><a href="<%= contacts[j].contactLinks %>" target="_blank"><%= contacts[j].contactLinks %></a></p>
+
+					</div>
+					<% }; %>
+				</div>
+				<div class="quote">
+					<p><%= myQuote%></p>
+					<p><%= quote%></p>
+
+				</div>
+
+			</div>
+
+
+
+		</script>
+	</div>
+
+</div>
+
+</body>
+</html>
