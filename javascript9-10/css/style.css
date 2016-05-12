@@ -96,7 +96,8 @@ background-position: 0 -51px;
 /*Выпадающее меню:*/
  #nav{
   margin-top: 100px;
-  display: block;
+  position: relative;
+  z-index: 2;
   background-color: #D2B48C;
 }
 ul {
@@ -107,26 +108,58 @@ ul {
 
   list-style-type: none;
 }
-#nav ul li {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-}
-#nav a {
-  padding: 0 20px;
-  margin: 0 20px;
-  text-decoration: none;
-  line-height: 40px;
-  display: block;
-  color: black;
+
+
+
+
+
+
+
+
+
+.menu a {
+    display: block;
+    text-decoration: none;
 }
 
-ul .sub-menu {
-  height: 50px;
-  width: 100px;
-  display: none;
-  position: absolute;
-  cursor: pointer;
 
+
+
+.submenu {
+    display: none;
+    position: absolute;  
 }
+
+.dropdown,
+.dropdown-right {
+    position: relative;
+}
+
+.dropdown:after {
+    content: "";
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    transition: 0.3s;
+}
+
+.dropdown:hover:after{
+    top: 15px;
+    transform: scaleY(-1);
+}
+
+.dropdown-right:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    transition: 0.3s;
+}
+
+.dropdown-right:hover:after{
+  right: 7px;
+  transform: scaleX(-1);
+}
+
+
 
