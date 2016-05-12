@@ -109,7 +109,10 @@ ul {
   list-style-type: none;
 }
 
+.menu-item {
+  float: left;
 
+}
 
 
 
@@ -120,6 +123,8 @@ ul {
 .menu a {
     display: block;
     text-decoration: none;
+    padding: 20px;
+    color: black;
 }
 
 
