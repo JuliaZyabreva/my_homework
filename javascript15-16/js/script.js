@@ -15,7 +15,7 @@ function Worker (){
     console.log("newWorker5.works         = ","I'm working!");
   }
 }
-Worker.prototype = newHuman;
+Worker.prototype0 = newHuman;
 
 
 function Student (){
