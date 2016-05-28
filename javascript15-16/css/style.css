@@ -1,0 +1,40 @@
+body {
+  background-color: #F1F1F1;
+}
+p {
+  margin-left: 300px;
+  color: blue;
+  font-size: 80px;
+  cursor: default;
+
+}
+.image{
+  margin-left: 450px;
+  padding: 20px;
+  font-size: 19px;
+  color: black;
+}
+
+#search{
+  margin-left: 200px;
+  padding: 20px;
+  width: 100%;
+}
+#search__field{
+  margin-left: 20px;
+  width: 60%;
+  height: 42px;
+  vertical-align: middle;
+  font-size: 24px;
+}
+#search__button{
+  margin-left: -5px;
+  width: 48px;
+  height: 48px;
+  outline: none;
+  border: 1px solid #8a8a8a;
+  vertical-align: middle;
+  background: #357AE8;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
