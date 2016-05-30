@@ -1,0 +1,16 @@
+{
+  "name": "Test GRUNT",
+  "version": "1.0.0",
+  "description": "first pkg",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julia Zyabreva",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1"
+  }
+}
